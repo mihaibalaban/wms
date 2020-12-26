@@ -17,7 +17,7 @@ class DefaultController extends Controller
 
         $productRepository = $entityManager->getRepository(Product::class);
         $product = $productRepository->findOneBy(['barcode'=>$barcode]);
-
+var_dump($product);die;
         return $product;
     }
 }

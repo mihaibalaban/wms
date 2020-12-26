@@ -1,0 +1,3 @@
+container_homepage:
+    path:     /
+    defaults: { _controller: ContainerBundle:Default:index }

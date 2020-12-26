@@ -1,3 +1,29 @@
+task:
+    resource: "@TaskBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+user:
+    resource: "@UserBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+stock:
+    resource: "@StockBundle/Controller/"
+    prefix:   /
+
+delivery:
+    resource: "@DeliveryBundle/Controller/"
+    prefix:   /
+
+container:
+    resource: "@ContainerBundle/Controller/"
+    prefix:   /
+
+location:
+    resource: "@LocationBundle/Controller/"
+    prefix:   /
+
 product:
     resource: "@ProductBundle/Controller/"
     type:     annotation

@@ -1,0 +1,3 @@
+task_homepage:
+    path:     /task/{id}
+    defaults: { _controller: TaskBundle:Default:index }
